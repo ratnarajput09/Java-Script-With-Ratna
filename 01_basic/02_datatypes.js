@@ -8,7 +8,6 @@ we are using nodejs not browser.
 
 //ecma and mdn to read documantation.
 /* datatypes in js
-    primitive types:-
     number
     bigint
     string = ""
@@ -16,7 +15,9 @@ we are using nodejs not browser.
     null = standalone value(represent of empty value.)
     undefined = when you dont assign value.
     symbol = unique
+    object 
 */
 
-/*
-*/
+
+console.log(typeof undefined);
+
