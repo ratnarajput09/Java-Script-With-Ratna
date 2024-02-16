@@ -35,3 +35,26 @@ console.log(typeof anotherId);
 //the typeof array(cars) will be object.
 
 //js is Dynamic type language.
+
+
+// Memory => Stack(primitive) => you get copy
+//Heap(non-primitive) =>you get reference of the original value.
+
+let myname = "rajput ratna"
+
+let anothermyname = myname
+anothermyname = "jswithratna"
+
+console.log(myname);
+console.log(anothermyname);
+
+let userone = {
+    email : "wediuwh@gha",
+    name : "wdbdn",
+}
+
+let usertwo = userone
+usertwo.email = "ratnarajput.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
