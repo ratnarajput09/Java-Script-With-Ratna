@@ -14,3 +14,29 @@ console.log(`${"hello"} ${"ratna"}`);
 let superman = "tarzan"
 
 let Superman = new String('tarzan');
+
+//String methods
+/*
+String length
+String charAt()
+String charCodeAt()
+String at()
+String [ ]
+String slice()
+String substring()
+String substr()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String repeat()
+String replace()
+String replaceAll()
+String split()
+String Search Methods
+String Templates
+*/
