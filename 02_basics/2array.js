@@ -45,3 +45,14 @@ let score3 = 300
 let score4 = 400
 
 console.log(Array.of(score1, score2, score3, score4));//[ 100, 200, 300, 400 ]
+
+//with key values.
+const set = new Set(["wjdfw", "ewfer", "fw2e"])
+console.log(Array.from(set));
+
+const map = new Map([
+    ["1","a"],
+    ["2","b"],
+]);
+console.log(Array.from(map.keys()));
+//you can access the values from keys and values.
