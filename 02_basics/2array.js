@@ -30,7 +30,18 @@ const another_array = array.flat(Infinity)
 console.log(another_array);
 //the op will be in one line.
 
-//when you will do data scraping =>
+//when you will do data scraping the data comes in different forms of type for that we use this methods to convert that into array and then do the other operation on that data =>
+
 console.log(Array.isArray("shivani")); //flase means this name is not in array.
 
+//convert into array
 console.log(Array.from("shivani"));//[ 's', 'h', 'i','v', 'a', 'n','i' ]
+
+console.log(Array.from({name : "Shivani"})) //it will give you empty array because you have to specify
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+let score4 = 400
+
+console.log(Array.of(score1, score2, score3, score4));//[ 100, 200, 300, 400 ]
