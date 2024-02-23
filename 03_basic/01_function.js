@@ -44,10 +44,41 @@ function LoginuserMsg(username) {
 
 //shopping cart 
 
-function addtocart(...name) {
+function addtocart(val1, val2, ...name) {
     return name
 }
 
-console.log(addtocart("makeup","hairoil","soap","shampoo","conditioner"));
+//console.log(addtocart("makeup","hairoil",));
 
 //...(spread operato is also rest operator) depends on the usecase of function.
+
+
+const user = {
+    username : "ratna",
+    price : 199
+}
+
+function handleobj(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+//handleobj(user)
+
+//direct object passing
+handleobj({
+    username : "shivani",
+    price: 199
+})
+
+//array passing
+
+const mynewarray = [200,300,400,500]
+
+function returnsecondvalue(anyarray) {
+    return anyarray[2]
+}
+//console.log(returnsecondvalue(mynewarray));
+
+//direct array passing
+console.log(returnsecondvalue([200,300,400,500]));
