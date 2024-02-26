@@ -41,5 +41,22 @@ if (userLoginEmail || userLoginGoogle) {
 
 //Nullish Coalescing Operator (??) : null undefied
 
+// 
+let val1;
+
+//val1 = 5 ?? 10
+//val1 = null ?? 10
+//val1 = null ?? 39 ?? 90
 
 
+
+
+//console.log(val1);
+
+// Terniary operation 
+
+//condition ? true : false
+
+const iceTeaPrice = 100
+
+iceTeaPrice >= 80 ? console.log("less than 80") : console.log("more than 80");
